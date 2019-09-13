@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\DBP",
+    "\\DBP\\obj",
+    "\\web",
+    "\\web\\database",
+    "\\web\\model",
+    "\\web\\static",
+    "\\web\\static\\css",
+    "\\web\\static\\images",
+    "\\web\\static\\img"
+  ],
+  "SelectedNode": "\\web\\database\\connector.py",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,3 +1,8 @@
+"""
+Routes and views for the flask application.
+"""
+
+from datetime import datetime
 from flask import Flask,render_template, request, session, Response, redirect
 from database import connector
 from model import entities
@@ -209,7 +214,6 @@ def current_user():
 def logout():
     session.clear()
     return render_template('login.html')
-
 
 if __name__ == '__main__':
     app.secret_key = ".."
