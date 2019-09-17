@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Chat Login</title>
+		<link rel="stylesheet" href="styles.css" type="text/css" media="all">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<div id="login-form-wrap">
+			<h2>Login</h2>
+			<form action="/authenticate" method="post" class="login-form">
+				<input type="text" name="username" id="username" placeholder="Username" value="" required>
+				<i class="validation"><span></span><span></span></i>
+				<input type="password" name="password" id="password" placeholder="Password" value="" required>
+				<i class="validation"><span></span><span></span></i>
+				<input type="submit" name="login" id="login" value="Login">
+			</form>
+			</div>
+		</div>
+	</body>
+</html>
