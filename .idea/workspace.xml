@@ -2,12 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16051b00-6d4f-42dd-a100-f5cc678983a2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/web/templates/chat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/database/connector.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/database/connector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/ProjectSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/chat-web-ErickJR/config/applicationhost.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/chat-web-ErickJR/v16/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/.vs/DBP/v16/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/DBP.pyproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/DBP.pyproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/DBP.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/DBP/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/content/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/content/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/content/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/scripts/_references.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/scripts/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/scripts/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/scripts/jquery-1.10.2.intellisense.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/scripts/jquery-1.10.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/scripts/jquery-1.10.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/scripts/jquery-1.10.2.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/scripts/jquery.validate-vsdoc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/scripts/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/scripts/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/scripts/jquery.validate.unobtrusive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/scripts/jquery.validate.unobtrusive.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/scripts/modernizr-2.6.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/scripts/respond.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/scripts/respond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/DBP/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/DBP/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/DBP/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/DBP/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/DBP/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBP/runserver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
