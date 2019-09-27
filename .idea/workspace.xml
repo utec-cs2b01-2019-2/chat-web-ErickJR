@@ -2,53 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16051b00-6d4f-42dd-a100-f5cc678983a2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.vs/ProjectSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/chat-web-ErickJR/config/applicationhost.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/chat-web-ErickJR/v16/.suo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/.vs/DBP/v16/.suo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/DBP.pyproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/DBP.pyproj.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/DBP.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/DBP/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/content/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/content/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/content/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/scripts/_references.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/scripts/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/scripts/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/scripts/jquery-1.10.2.intellisense.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/scripts/jquery-1.10.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/scripts/jquery-1.10.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/scripts/jquery-1.10.2.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/scripts/jquery.validate-vsdoc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/scripts/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/scripts/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/scripts/jquery.validate.unobtrusive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/scripts/jquery.validate.unobtrusive.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/scripts/modernizr-2.6.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/scripts/respond.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/DBP/static/scripts/respond.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/DBP/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/DBP/templates/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/DBP/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/DBP/templates/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/DBP/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBP/runserver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/css/libs/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/css/libs/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/css/libs/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/css/libs/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/css/libs/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/css/libs/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/css/libs/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/css/libs/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/js/chat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/js/libs/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/js/libs/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/js/libs/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/js/libs/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/js/libs/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/js/libs/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/js/libs/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/js/libs/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/js/libs/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/templates/chat2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/message.db" beforeDir="false" afterPath="$PROJECT_DIR$/web/message.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/css/bootstrap.min.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="chat-web-ErickJR" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -64,8 +49,17 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/static/css/libs" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Erick\chat-web-ErickJR\web\static\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Erick\chat-web-ErickJR\web\static\css\libs" />
+      <recent name="C:\Users\Erick\chat-web-ErickJR\web\static\js\libs" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">

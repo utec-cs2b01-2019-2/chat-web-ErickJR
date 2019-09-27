@@ -213,6 +213,52 @@ def logout():
     session.clear()
     return render_template('login.html')
 
+
+@app.route('/groups', methods = ['POST'])
+def create_group():
+    c = json.loads(request.data)
+    group = entities.Group(
+        name=c['name'],
+    )
+    session_db = db.getSession(engine)
+    session_db.add(group)
+    session_db.commit()
+    return 'Created Group'
+
+@app.route('/groups/<id>', methods = ['GET'])
+def read_group():
+    session_db = db.getSession(engine)
+    group = session_db.query(entities.Group).filter(
+        entities.Group.id ==id).first()
+    data = json.dumps(group, cls=connector.AlchemyEncoder)
+    return Response(data, status=200, mimetype="application/json")
+
+@app.route('/groups/', methods = ['GET'])
+def get_all_groups():
+    session_db=db.getSession(engine)
+    dbResponse = session_db.query(entities.Group)
+    data = dbResponse[:]
+    return Response(json.dumps(data, cls=connector.AlchemyEncoder), mimetype="application/json")
+
+@app.route('/groups/<id>', methods = ['PUT'])
+def update_groups(id):
+    session = db.getSession(engine)
+    group = session.query(entities.Group).filter(entities.Group.id == id).first()
+    c = json.loads(request.data)
+    for key in c.keys():
+        setattr(group, key, c[key])
+    session.add(group)
+    session.commit()
+    return 'Updated Group'
+
+#4. DELETE
+@app.route('/groups/<id>', methods = ['DELETE'])
+def delete_group(id):
+    session = db.getSession(engine)
+    group = session.query(entities.Group).filter(entities.Group.id == id).one()
+    session.delete(group)
+    session.commit()
+
 if __name__ == '__main__':
     app.secret_key = ".."
     app.run(debug=True,port=8000, threaded=True, host=('127.0.0.1'))
