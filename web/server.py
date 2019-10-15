@@ -232,8 +232,6 @@ def logout():
     session.clear()
     return render_template('login.html')
 
-<<<<<<< HEAD
-=======
 
 @app.route('/groups', methods = ['POST'])
 def create_group():
@@ -280,7 +278,6 @@ def delete_group(id):
     session.delete(group)
     session.commit()
 
->>>>>>> db6eac59ef7110e2b3ca5448140c132c3048c841
 if __name__ == '__main__':
     app.secret_key = ".."
     app.run(debug=True,port=8000, threaded=True, host=('127.0.0.1'))
